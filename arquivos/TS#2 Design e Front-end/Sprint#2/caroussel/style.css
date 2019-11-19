@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#carousel {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  margin: auto;  
+  background-color: #D3D3D3;
+}
+
+.setas {
+  height: 500px;
+  z-index: 1000;
+  color: #ccc;
+  font-size: 50px;
+}
+
+.setas:hover {
+  color: #fff;
+}
+
+.setas i {
+  position: absolute;
+  top: calc(50% - 25px);
+  cursor: pointer;
+}
+
+.setas.esq {
+  width: 30px;
+  position: absolute;
+  left: 8px;
+}
+
+.setas.dir {
+  width: 30px;
+  position: absolute;
+  right: 0;
+}
+
+.item {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+  background-color: #f50;
+  z-index: 1;
+}
+
+.item.primeira {
+  background-image: url('assets/Slide1.jpg');
+}
+
+.item.segunda {
+  background-image: url('assets/Slide2.jpg');
+}
+
+.item.terceira {
+  background-image: url('assets/Slide3.jpg');
+}
+
+#itens {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+  display: inline-block;    
+}
+
+#itens ul {
+  list-style: none;
+  /* overflow-x: auto; */
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
