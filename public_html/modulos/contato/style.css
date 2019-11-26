@@ -1,0 +1,101 @@
+*,*::before,*::after{
+	margin: 0%;
+	padding: 0%;
+}
+
+.titulo{
+	padding: 40px;
+	border-top: 5px solid #f50;
+	text-align: center;
+}
+
+
+.imagem{
+	padding: 150px;
+	background-image: url(assets/farm.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.contact{
+	background-color: rgba(255,85,0,.5);
+	width: 500px;
+	text-align: center;
+	margin: auto;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.titulo h1{
+	color: #f50;
+	text-transform: uppercase;
+	margin-top: 20px;: 
+}
+
+.contact h2{
+	color: #fff;
+	font-size: 30px;
+}
+
+i{
+	color: #fff;
+	font-size: 40px;
+	padding: 5px 9px;
+}
+
+.a{
+	padding: 100px;
+}
+
+.row{
+	padding: 80px 100px ;
+	background-color: #f50;
+}
+
+label{
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.esq{
+	margin-left: 300px;
+}
+.dir{
+	margin-left: 50px;
+}
+
+.col-md-1{
+	margin: auto;
+}
+
+.col-md-1 i{
+	font-size: 80px; 
+}
+
+.col-md-6,.col-md-5{
+	text-align: left;
+}
+
+.peq{
+	border:0;
+	width: 370px;
+	padding: 5px 30px;
+	border-radius: 10px;
+}
+
+.gra{
+	padding: 20px 30px;
+	border:0;
+	width: 370px;
+	border-radius: 10px;
+}
+
+button{
+	border: 2px solid #fff;
+	width: 130px;
+	background-color: #f50;
+	color: #fff;
+	padding: 5px;
+	float: right;
+}
