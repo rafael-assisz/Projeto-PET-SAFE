@@ -1,0 +1,29 @@
+*,*::before,*::after{
+    margin: 0%;
+    padding: 0%;
+ }
+
+.titulo{
+	border-top: 3px solid #f50;
+	text-align: center;
+	padding: 50px;
+	color: #f50;
+}
+
+.corpo{
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.corpo p{
+	width: 50%;
+	text-align: right;
+	font-size: 17px;
+}
+
+img{
+	width: 230px;
+	float: right;
+	margin-right: 220px;
+	margin-top: -150px;  
+}
